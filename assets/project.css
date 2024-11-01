@@ -21,7 +21,7 @@ nav{
     font: 0.8em sans-serif;
  }
  nav button{
-    border-radius: 30p+x/
+    border-radius: 30px
     ;
     padding: 0.8em 1em 0.8em 1em;
     background-color: black;
@@ -54,7 +54,7 @@ nav{
  .stay-curious p{
     width: 280px;
     margin-top: 1em;
-    font-family: none*;
+    font-family: none;
  }
  .svg{
     height: 300px;
@@ -69,6 +69,7 @@ nav{
     width: 150px;
     height: 30px;
  }
-
-  
- 
+#trending{
+    display: flex;
+   
+}
