@@ -9,14 +9,16 @@ nav{
     background-color: #FFC017;
     justify-content: space-between;
     padding: 20px;
-    position: fixed;
+    position: sticky;
     width: 100%;
    z-index: 1;
     top: 0;
-    transition: background-color 0.3s;
+    transition: background-color 4s ease;
 }
-nav.scrolled{
-   background-color: white;
+.scrolled{
+ 
+    background-color: white;
+   
 }
  nav img{
     margin-top: 0.5em;
@@ -39,7 +41,12 @@ nav.scrolled{
     color: white;
     border: black;
     cursor: pointer;
+    transition: background-color 1s ease;
+}
    
+ 
+ nav button.scrolled{
+   background-color: green;
  }
  /*INTESTAZIONE*/
  #title{
@@ -49,7 +56,7 @@ nav.scrolled{
     background-color: #FFC017;
     height: 300px;
     justify-content: space-between;
-    margin-top: 78.31px;
+  
  }
  .stay-curious{
     margin-left: 5.5em;
@@ -272,34 +279,20 @@ cursor: pointer;
    text-decoration: none;
    color: #a5a5a5;
 }
-/*mobile
-@media screen and(min-width:768px) {
-   nav{
-      display: flex;
-      box-sizing: border-box;
-      border: 1px solid black;
-      background-color: #FFC017;
-      justify-content: space-between;
-      padding: 20px;
-      position: fixed;
-      width: 100%;
-     z-index: 1;
-      top: 0;
-      transition: background-color 0.1s;
-  }
-  nav.scrolled{
-     background-color: white;
-  }
+/*mobile*/
+@media screen and(min-width:730px) {
+  
+ 
    nav img{
       margin-top: 0.5em;
-      margin-left: 4.5em
+     
    }
    .nav-option{
       margin-right: 4.5em;
    }
    nav a{
       margin-right: 1.2em;
-      text-decoration: none;
+    
       color: black;
       font: 0.8em sans-serif;
    }
@@ -312,9 +305,9 @@ cursor: pointer;
       border: black;
       cursor: pointer;
      
-   }
+   }}
    /*INTESTAZIONE*/
-   #title{
+  /* #title{
       display: flex;
       box-sizing: border-box;
       border: 1px solid #000000;
@@ -354,7 +347,7 @@ cursor: pointer;
       height: 30px;
    }
    /*SEZIONE DEL MAIN TRENDING*/
-   #trending h2{
+   /*#trending h2{
      display: flex;
      align-items: center;
      font-weight: 600;
@@ -425,7 +418,7 @@ cursor: pointer;
   }
   
   /*MAIN ARTICOLI IN COLONNA*/
-  #main-body{
+ /* #main-body{
      display: flex;
     gap: 70px;
      margin: 2em 5em 2em 5em;
