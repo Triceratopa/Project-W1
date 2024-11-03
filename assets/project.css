@@ -1,114 +1,117 @@
-/*NAVAR*/
+
+ /*NAVAR*/
 
    
 
-nav{
-    display: flex;
-    box-sizing: border-box;
-    border: 1px solid black;
-    background-color: #FFC017;
-    justify-content: space-between;
-    padding: 20px;
-    position: sticky;
-    width: 100%;
-   z-index: 1;
-    top: 0;
-    transition: background-color 4s ease;
+ 
+
+ nav{
+   display: flex;
+   box-sizing: border-box;
+   border: 1px solid black;
+   background-color: #FFC017;
+   justify-content: space-between;
+   padding: 20px;
+   position: sticky;
+   width: 100%;
+  z-index: 1;
+   top: 0;
+   transition: background-color 4s ease;
 }
 .scrolled{
- 
-    background-color: white;
-   
-}
- nav img{
-    margin-top: 0.5em;
-    margin-left: 4.5em
- }
- .nav-option{
-    margin-right: 4.5em;
- }
- nav a{
-    margin-right: 1.2em;
-    text-decoration: none;
-    color: black;
-    font: 0.8em sans-serif;
- }
- nav button{
-    border-radius: 30px
-    ;
-    padding: 0.8em 1em 0.8em 1em;
-    background-color: black;
-    color: white;
-    border: black;
-    cursor: pointer;
-    transition: background-color 1s ease;
-}
-   
- 
- nav button.scrolled{
-   background-color: green;
- }
- /*INTESTAZIONE*/
- #title{
-    display: flex;
-    box-sizing: border-box;
-    border: 1px solid #000000;
-    background-color: #FFC017;
-    height: 300px;
-    justify-content: space-between;
+
+   background-color: white;
   
- }
- .stay-curious{
-    margin-left: 5.5em;
-    margin-top: 3em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
- }
- header h1{
-    font-family: "Merriweather", serif;
-    font-weight: 530;
-    font-size: 60px;
- }
- .stay-curious p{
-    width: 280px;
-    margin-top: 1em;
-    font-family: none;
- }
- .svg{
-    height: 300px;
- }
- .stay-curious button {
-    border-radius: 30px;
-   margin-top: 3em;
-    background-color: black;
-    color: white;
-    border: black;
-    cursor: pointer;
-    width: 150px;
-    height: 30px;
- }
- /*SEZIONE DEL MAIN TRENDING*/
- #trending h2{
+}
+nav img{
+   margin-top: 0.5em;
+   margin-left: 4.5em
+}
+.nav-option{
+   margin-right: 4.5em;
+}
+nav a{
+   margin-right: 1.2em;
+   text-decoration: none;
+   color: black;
+   font: 0.8em sans-serif;
+}
+nav button{
+   border-radius: 30px
+   ;
+   padding: 0.8em 1em 0.8em 1em;
+   background-color: black;
+   color: white;
+   border: black;
+   cursor: pointer;
+   transition: background-color 1s ease;
+}
+  
+
+nav button.scrolled{
+  background-color: green;
+}
+/*INTESTAZIONE*/
+#title{
    display: flex;
-   align-items: center;
-   font-weight: 600;
- }
- #trending h2 img{
-   width: 30px;
+   box-sizing: border-box;
+   border: 1px solid #000000;
+   background-color: #FFC017;
+   height: 300px;
+   justify-content: space-between;
+ 
+}
+.stay-curious{
+   margin-left: 5.5em;
+   margin-top: 3em;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+header h1{
+   font-family: "Merriweather", serif;
+   font-weight: 530;
+   font-size: 60px;
+}
+.stay-curious p{
+   width: 280px;
+   margin-top: 1em;
+   font-family: none;
+}
+.svg{
+   height: 300px;
+}
+.stay-curious button {
+   border-radius: 30px;
+  margin-top: 3em;
+   background-color: black;
+   color: white;
+   border: black;
+   cursor: pointer;
+   width: 150px;
    height: 30px;
- }
+}
+/*SEZIONE DEL MAIN TRENDING*/
+#trending h2{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+#trending h2 img{
+  width: 30px;
+  height: 30px;
+}
 #trending{
-    display: flex;
-   flex-direction:column ;
-   margin: 2em 5em 2em 5em;
+   display: flex;
+  flex-direction:column ;
+  margin: 2em 5em 2em 5em;
 }
 
 .article{
-   display: flex;
-   width: auto; 
-   height: 300px;
-   flex-wrap: wrap;
+  display: flex;
+  width: auto; 
+  height: 300px;
+  flex-wrap: wrap;
 }
 
 .single-article{
@@ -116,425 +119,303 @@ width: 28%;
 margin-top: 0.8em;
 }
 .number{
-   font-size: 2em;
-    font-weight: bold;
-    color: #efefef;
-    margin-right: 0.5em;
-    margin-top: 0.2em;
+  font-size: 2em;
+   font-weight: bold;
+   color: #efefef;
+   margin-right: 0.5em;
+   margin-top: 0.2em;
 }
 .name{
-   display: flex;
-   align-items: center;
-   font-size: 0.8em;
-   gap: 5px;
-   margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  gap: 5px;
+  margin-bottom: 0.5em;
 }
 .name span{
-   color: #979797;
+  color: #979797;
 }
 #trending img {
 
-   width: 20px;
-   height: 20px;
-   border-radius: 30%;
-   
+  width: 20px;
+  height: 20px;
+  border-radius: 30%;
+  
 }
 .single-article a{
-   text-decoration: none;
-   color: #000000;
-   font-weight:600 ;
-   font-family: sans-serif;
-   font-size: 0.8em;
+  text-decoration: none;
+  color: #000000;
+  font-weight:600 ;
+  font-family: sans-serif;
+  font-size: 0.8em;
 }
 .meta{
-   color: #979797;
-   font-size: 0.8em;
-   margin-top: 1em;
-   display: flex;
-   align-items: center;
-   gap: 4px;
+  color: #979797;
+  font-size: 0.8em;
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 hr{
-   color: #d3d1d1;
-   border: 0.5px solid;
+  color: #d3d1d1;
+  border: 0.5px solid;
 }
 
 /*MAIN ARTICOLI IN COLONNA*/
 #main-body{
-   display: flex;
-  gap: 70px;
-   margin: 2em 5em 2em 5em;
+  display: flex;
+ gap: 70px;
+  margin: 2em 5em 2em 5em;
 }
 .body-article{
-   display: flex;
-   gap: 30px;
-  
+  display: flex;
+  gap: 30px;
+ 
 
 }
 #imagines{
-   display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-   margin-top: 0;
+  display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+  margin-top: 0;
 }
 #imagines img{
-   display: flex;
-   flex-direction: column;
-   height:130px;
-   width: 200px;
-   border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  height:130px;
+  width: 200px;
+  border-radius: 0;
 }
 
 .article-imagine{
-   display: flex;
-   flex-direction: column;
-   width: 380px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
 }
 
 
 .body-article div{
-   display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    
+  display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 2em;
+   margin-bottom: 2em;
+   
 }
 .body-article img{
-   width: 20px;
-    height: 20px;
-    border-radius: 50%;
+  width: 20px;
+   height: 20px;
+   border-radius: 50%;
 }
 .body-article a{
-   text-decoration: none;
-   color: #000000;
-   font-weight:600 ;
-   font-family: sans-serif;
-   font-size: 1.3em;
+  text-decoration: none;
+  color: #000000;
+  font-weight:600 ;
+  font-family: sans-serif;
+  font-size: 1.3em;
 }
 .meta-body button {
-   border-radius: 30px;
-   border: none;
-  height: 20px;
-   cursor: pointer;
-   color: #979797;
-   font-size: 0.8em;
-   display: flex;
-   
-   white-space: nowrap;
- 
-   align-items: center;
-}
+  border-radius: 30px;
+  border: none;
+ height: 20px;
+  cursor: pointer;
+  color: #979797;
+  font-size: 0.8em;
+  display: flex;
+  
+  white-space: nowrap;
 
+  align-items: center;
+}
+hr{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 .meta-body{
-   color:#979797; 
-   font-size: 0.85em;
-   
-   display: flex;
-   align-items: center;
-   gap: 4px;
+  color:#979797; 
+  font-size: 0.85em;
+  
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 .name-body{
-   display: flex;
-   align-items: center;
-   font-size: 0.8em;
-   gap: 5px;
-  
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  gap: 5px;
+ 
 }
 .bookmark{
-   display: flex;
+  display: flex;
 }
 .discover{
-   display: flex;
-   flex-direction: column;
-   margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
 }
 .discover h3{
-   font-size: 0.8em;
-   margin-bottom: 1em;
-   font-weight: bolder;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+  font-weight: bolder;
 }
 .more-button{
-   display: flex;
-   flex-wrap: wrap;
-   gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .more-button button{
-   color: #a5a5a5;
-   font-size: 0.7em;
-   height: 30px;
-   background-color: white;
+  color: #a5a5a5;
+  font-size: 0.7em;
+  height: 30px;
+  background-color: white;
 border: 0.5px solid #b3b3b3;
 border-radius: 5px;
 cursor: pointer;
 
 }
+.more-button button:hover{
+   background-color: #e48bff;
+   color: #000000;
+   transform: scale(1.1);
+}
 .footer{
-   display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    
+  display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   
 }
 .footer a{
-   text-decoration: none;
-   color: #a5a5a5;
+  text-decoration: none;
+  color: #a5a5a5;
 }
-/*mobile*/
-@media screen and(min-width:730px) {
-  
+button{
+   transition: background-color 0.5s ease, color 0.3s ease;
+}
+.meta-body button:hover{
+   background-color: #e48bff;
+   color: #000000;
+   transform: scale(1.1);
+}
+ button:hover{
+   background-color: #009650;
+transform: scale(1.1);
+ }
+ a:hover{
+   transform: scale(1.1);
+ }
+ .star{
+   cursor: pointer;
+ }
+ .star:hover{
+   color: #FFC017;
+   box-shadow: 0 0 5px #FFC017;
+   text-shadow: 0 0 5px #FFC017;
+   transform: scale(1.1);
+ }
+ .bookmark:hover{
+   transform: scale(1.1);
+   
+ }
  
-   nav img{
-      margin-top: 0.5em;
-     
+/*mobile*/
+@media screen and (max-width:767px) {
+   nav a:not(:nth-child(4)):not(:nth-child(5)){
+display: none;
    }
-   .nav-option{
-      margin-right: 4.5em;
-   }
-   nav a{
-      margin-right: 1.2em;
-    
-      color: black;
-      font: 0.8em sans-serif;
-   }
-   nav button{
-      border-radius: 30px
-      ;
-      padding: 0.8em 1em 0.8em 1em;
-      background-color: black;
-      color: white;
-      border: black;
-      cursor: pointer;
-     
-   }}
-   /*INTESTAZIONE*/
-  /* #title{
-      display: flex;
-      box-sizing: border-box;
-      border: 1px solid #000000;
-      background-color: #FFC017;
-      height: 300px;
-      justify-content: space-between;
-      margin-top: 78.31px;
-   }
-   .stay-curious{
-      margin-left: 3em;
-      margin-top: 3em;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-   }
-   header h1{
-      font-family: "Merriweather", serif;
-      font-weight: 530;
-      font-size: 50px;
-   }
-   .stay-curious p{
-      width: 280px;
-      margin-top: 1em;
-      font-family: none;
-   }
-   .svg{
-      height: 300px;
-   }
-   .stay-curious button {
-      border-radius: 30px;
-     margin-top: 3em;
-      background-color: black;
-      color: white;
-      border: black;
-      cursor: pointer;
-      width: 150px;
-      height: 30px;
-   }
-   /*SEZIONE DEL MAIN TRENDING*/
-   /*#trending h2{
-     display: flex;
-     align-items: center;
-     font-weight: 600;
-   }
-   #trending h2 img{
-     width: 30px;
-     height: 30px;
-   }
+  .nav-option {
+   margin-right: 0;
+   display: flex;
+   align-items: baseline;
+   gap: 20px;
+  }
+  nav img{
+   margin-left: 0;
+  }
+  .stay-curious{
+   margin-left: 2em;
+  }
+header h1{
+   font-size: 50px;
+}
+  .svg{
+   display: none;
+  }
   #trending{
-      display: flex;
-     flex-direction:column ;
-     margin: 2em 5em 2em 5em;
+   margin: 1.5em 1em 0.2em 1em;
   }
-  
   .article{
-     display: flex;
-     width: auto; 
-     height: 300px;
-     flex-wrap: wrap;
+   flex-direction: column;
+   height: auto;
+   flex-wrap: nowrap;
   }
-  
   .single-article{
-  width: 28%;
-  margin-top: 0.8em;
+   width: auto;
   }
-  .number{
-     font-size: 2em;
-      font-weight: bold;
-      color: #efefef;
-      margin-right: 0.5em;
-      margin-top: 0.2em;
-  }
-  .name{
-     display: flex;
-     align-items: center;
-     font-size: 0.8em;
-     gap: 5px;
-     margin-bottom: 0.5em;
-  }
-  .name span{
-     color: #979797;
-  }
-  #trending img {
-  
-     width: 20px;
-     height: 20px;
-     border-radius: 30%;
-     
-  }
-  .single-article a{
-     text-decoration: none;
-     color: #000000;
-     font-weight:600 ;
-     font-family: sans-serif;
-     font-size: 0.8em;
-  }
-  .meta{
-     color: #979797;
-     font-size: 0.8em;
-     margin-top: 1em;
-     display: flex;
-     align-items: center;
-     gap: 4px;
-  }
-  hr{
-     color: #d3d1d1;
-     border: 0.5px solid;
-  }
-  
-  /*MAIN ARTICOLI IN COLONNA*/
- /* #main-body{
-     display: flex;
-    gap: 70px;
-     margin: 2em 5em 2em 5em;
+  #main-body{
+flex-direction: column-reverse;
+margin: 2.5em 1em 1em 1em;
+gap: 0;
   }
   .body-article{
-     display: flex;
-     gap: 30px;
-    
-  
+   gap: 5px;
   }
-  #imagines{
-     display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-     margin-top: 0;
-  }
-  #imagines img{
-     display: flex;
-     flex-direction: column;
-     height:130px;
-     width: 200px;
-     border-radius: 0;
-  }
-  
-  .article-imagine{
-     display: flex;
-     flex-direction: column;
-     width: 380px;
-  }
-  
-  
   .body-article div{
-     display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-top: 2em;
-      margin-bottom: 2em;
-      
+   margin-top: 1em;
+   margin-bottom: 1em;
   }
-  .body-article img{
-     width: 20px;
-      height: 20px;
-      border-radius: 50%;
+  .meta-body button{
+   height: auto;
+white-space: normal;
   }
   .body-article a{
-     text-decoration: none;
-     color: #000000;
-     font-weight:600 ;
-     font-family: sans-serif;
-     font-size: 1.3em;
+   font-size: small;
   }
-  .meta-body button {
-     border-radius: 30px;
-     border: none;
-    height: 20px;
-     cursor: pointer;
-     color: #979797;
-     font-size: 0.8em;
-     display: flex;
-     
-     white-space: nowrap;
-   
-     align-items: center;
-  }
-  
-  .meta-body{
-     color:#979797; 
-     font-size: 0.85em;
-     
-     display: flex;
-     align-items: center;
-     gap: 4px;
-  }
-  .name-body{
-     display: flex;
-     align-items: center;
-     font-size: 0.8em;
-     gap: 5px;
-    
-  }
-  .bookmark{
-     display: flex;
+  .body-article p{
+font-size: small;
+color: #a5a5a5;
   }
   .discover{
-     display: flex;
-     flex-direction: column;
-     margin-top: 1em;
-  }
-  .discover h3{
-     font-size: 0.8em;
-     margin-bottom: 1em;
-     font-weight: bolder;
-  }
-  .more-button{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 10px;
-  }
-  .more-button button{
-     color: #a5a5a5;
-     font-size: 0.7em;
-     height: 30px;
-     background-color: white;
-  border: 0.5px solid #b3b3b3;
-  border-radius: 5px;
-  cursor: pointer;
-  
-  }
-  .footer{
-     display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      
-  }
-  .footer a{
-     text-decoration: none;
-     color: #a5a5a5;
+   margin-top: 0;
   }
 }
+/*tablet*/
+@media  screen and (min-width:768px) and (max-width:1023px) {
+nav img{
+   margin-left: 3em;
+}
+   .nav-option{
+      margin-right: 2.4em;
+   }
+   .stay-curious{
+      margin-left: 3.5em;
+   }
+   header h1{
+      font-size: 50px;
+   }
+   /*svg non lo sposto come nel mockup perchè nel mio in quel modo viene brutto*/
+   #trending{
+      margin: 2em 5em 5em 5em;
+   }
+   .article{
+      width: 580px;
+   }
+   .single-article{
+      width: 40%;
+   }
+   #trending img{
+      display: none;
+   }
+   #main-body{
+      flex-direction: column-reverse;
+      gap: 0;
+   }
+   .body-article p:nth-child(2){
+     
+      color: #a5a5a5;
+        }
+}
+  

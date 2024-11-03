@@ -10,3 +10,5 @@ window.addEventListener('scroll',function(){
      
     }
 })
+const svg=document.getElementById('svg')
+myIterval =setInterval(svg,1000,'aria-label')
